@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sario Sofware</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap Agency Template" name="keywords">
+        <meta content="Bootstrap Agency Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="libs/slick/slick-theme.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Header Start -->
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2">
+                            <div class="brand">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="topbar">
+                                <div class="topbar-col">
+                                    <a href="tel:+012 345 67890"><i class="fa fa-phone-alt"></i>+254 xxx xxx</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <a href="mailto:info@example.com"><i class="fa fa-envelope"></i>info@sariosofware.co.ke</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <div class="topbar-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar navbar-expand-lg bg-light navbar-light">
+                                <a href="#" class="navbar-brand">MENU</a>
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                    <div class="navbar-nav ml-auto">
+                                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                                        <a href="services.html" class="nav-item nav-link">Services</a>
+                                        <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                                        <!-- <a href="single.html" class="nav-item nav-link">Single Page</a> -->
+                                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                                        <!-- <a href="https://htmlcodex.com/bootstrap-agency-template" class="btn"><i class="fa fa-download"></i>Download Now</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+
+
+            <!-- Hero Start -->
+            <div class="hero">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2>Welcome to Sario Software.</h2>
+                            <h2><span>Innovate.</span>  Empower. Transform</h2>
+                            <p>At Sario, we are passionate about technology and its power to transform lives</p>
+                            <!-- <a class="btn" href="https://htmlcodex.com/bootstrap-agency-template">Download Now</a> -->
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/hero.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero End -->
+            
+            
+            <!-- About Start -->
+            <div class="about">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div id="video-section">
+                                <div class="youtube-player" data-id="jssO8-5qmag"></div>
+                                
+                                <script>
+                                    document.addEventListener("DOMContentLoaded",
+                                        function() {
+                                            var div, n,
+                                                v = document.getElementsByClassName("youtube-player");
+                                            for (n = 0; n < v.length; n++) {
+                                                div = document.createElement("div");
+                                                div.setAttribute("data-id", v[n].dataset.id);
+                                                div.innerHTML = labnolThumb(v[n].dataset.id);
+                                                div.onclick = labnolIframe;
+                                                v[n].appendChild(div);
+                                            }
+                                        });
+
+                                    function labnolThumb(id) {
+                                        var thumb = '<img src="img/poster.jpg">',
+                                            play = '<div class="play"></div>';
+                                        return thumb.replace("ID", id) + play;
+                                    }
+
+                                    function labnolIframe() {
+                                        var iframe = document.createElement("iframe");
+                                        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+                                        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+                                        iframe.setAttribute("frameborder", "0");
+                                        iframe.setAttribute("allowfullscreen", "1");
+                                        this.parentNode.replaceChild(iframe, this);
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">Learn About Us</h2>
+                            <p>
+                                Founded in 2018 in the vibrant tech hub of Nairobi, Kenya, Sario Software Developers is a dynamic company dedicated to crafting cutting-edge tech solutions and nurturing the next generation of tech talent. We specialize in turning ideas into reality through innovative software development, training, and consultancy services.  
+                            </p>
+                            <p>
+                                At Sario, we are passionate about technology and its power to transform lives. Our mission is to empower fresh graduates, passionate programmers, AI enthusiasts, and tech innovators by providing them with opportunities to grow, create, and impact the world. Since our inception, we have been committed to fostering a culture of creativity, collaboration, and excellence in Kenya’s tech ecosystem.
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- Service Start -->
+            <div class="service">
+                <div class="container-fluid">
+                    <div class="section-header">
+                        <h2>Our Services</h2>
+                        <p>At Sario, we build intelligent systems and digital solutions that combine AI, automation, and modern software engineering to power growth and efficiency.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>AI Development</h3>
+                                <img src="img/services/ai.png" alt="AI Development">
+                                <p>Custom artificial intelligence solutions including NLP, computer vision, and predictive analytics for smarter business decisions.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Automation</h3>
+                                <img src="img/services/automation.png" alt="Automation">
+                                <p>Workflow and process automation to save time, reduce costs, and improve operational efficiency across industries.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Web Development</h3>
+                                <img src="img/services/web-app.png" alt="Web & App Development">
+                                <p>Scalable web platforms and mobile apps designed to deliver seamless user experiences and business value.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Data Engineering</h3>
+                                <img src="img/services/data.png" alt="Data Engineering">
+                                <p>End-to-end data pipelines, ETL, and database systems that ensure your business can process and use data effectively.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Cloud Solutions</h3>
+                                <img src="img/services/cloud.png" alt="Cloud Solutions">
+                                <p>Cloud-native development, deployment, and optimization for secure, scalable, and cost-effective systems.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Cybersecurity</h3>
+                                <img src="img/services/cybersecurity.png" alt="Cybersecurity">
+                                <p>Robust security solutions to protect your infrastructure, applications, and data from evolving cyber threats.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Research</h3>
+                                <img src="img/services/research.png" alt="Research & Consulting">
+                                <p>Technical consulting and R&D to help organizations integrate AI, machine learning, and emerging tech.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3>Training</h3>
+                                <img src="img/services/training.png" alt="Training and Support">
+                                <p>Capacity building, developer training, and ongoing support to ensure sustainable adoption of our solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+
+
+           <!-- FAQs Start -->
+            <div class="faqs">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="section-title">Frequently Asked Questions</h2>
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                                            What services does Sario Software provide?
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            We specialize in AI development, automation, web & mobile apps, cloud solutions, and data engineering. Our goal is to build intelligent systems that solve real business problems.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                            Can you build custom AI models for my business?
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Yes! We design and train AI models tailored to your use case, whether it's natural language processing, computer vision, or predictive analytics.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                                            Do you offer support and training?
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Absolutely. We provide training sessions, documentation, and ongoing support to ensure your team can use and scale our solutions effectively.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                            How do I get started with Sario Software?
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            You can reach out to us through our contact page, share your requirements, and we’ll schedule a consultation to design the right solution for you.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn" href="contact.html">Ask More</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/faqs.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FAQs End -->
+
+
+            <!-- Testimonial Start -->
+            <div class="testimonial">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>What Our Clients Say</h2>
+                        <p>Trusted by startups, SMEs, and enterprises for cutting-edge software and AI solutions.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider-nav">
+                                <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Client"></div>
+                                <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Client"></div>
+                                <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Client"></div>
+                                <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Client"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider">
+                                <div class="slider-item">
+                                    <h3>Grace Mwangi</h3>
+                                    <h4>Founder, HealthTech Startup</h4>
+                                    <p>Sario built us an AI-powered patient management system that reduced manual work by 60%. Their team is professional, innovative, and highly reliable.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>John Kamau</h3>
+                                    <h4>Operations Manager, Logistics Company</h4>
+                                    <p>The automation solutions from Sario saved us countless hours. Our workflows are now faster and more efficient, with real-time analytics dashboards.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Sarah Otieno</h3>
+                                    <h4>CEO, E-commerce Platform</h4>
+                                    <p>Their web and mobile development expertise is outstanding. We scaled to thousands of users seamlessly thanks to their secure cloud infrastructure.</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>David Ochieng</h3>
+                                    <h4>IT Director, Financial Services</h4>
+                                    <p>Sario Software has been instrumental in our digital transformation. From AI fraud detection to customer chatbots, they delivered world-class solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+
+            <!-- News Start -->
+            <div class="news">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="img/news.jpg" alt="AI News">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">Latest Insights</h2>
+                            <p>
+                                Stay updated with our latest articles and updates on AI, automation, and modern software engineering. We share knowledge to help businesses understand and adopt emerging technologies.
+                            </p>
+                            <p>
+                                From case studies to technical blogs, our news section highlights real-world applications of AI and how businesses can leverage smart solutions to stay competitive.
+                            </p>
+                            <a class="btn" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- News End -->
+
+
+            <!-- Footer Start -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="footer-about">
+                <h2>About Us</h2>
+                <p>
+                  Sario Software is a Kenyan tech company building AI-driven solutions, enterprise apps, and digital platforms that help businesses thrive in the modern world.
+                </p>
+                <br>
+                <p><i class="fa fa-map-marker-alt"></i>Nairobi, Kenya</p>
+                <p><i class="fa fa-phone-alt"></i>+254 700 000 000</p>
+                <p><i class="fa fa-envelope"></i>info@sariosoftware.co.ke</p>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="footer-link">
+                    <h2>Quick Links</h2>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Our Services</a>
+                    <a href="portfolio.html">Our Portfolio</a>
+                    <a href="contact.html">Contact Us</a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="footer-link">
+                    <h2>Support</h2>
+                    <a href="#">Clients</a>
+                    <a href="#">Reviews</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Customer Support</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container copyright">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2025 <a href="#">Sario Software</a>, All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6">
+              <p>Powered by <a href="#">Sario Software</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
